@@ -1,0 +1,12 @@
+.Model TINY
+.code
+.startup
+CLD
+mov ax, b800h
+mov es,ax 
+mov ds 0h
+mov cx 25d*80d
+mov ax 0720h
+rep stosw
+.exit
+.end
