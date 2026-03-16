@@ -1,0 +1,13 @@
+1: hello world 
+2: this is ams lab of the microprocessor (mup) course 
+3: Lab 7 of this course Eval lab 
+4: I am Dhruv Shah 
+5: This is a boring course 
+6: THis lab is the worst so boring 
+7: Courses this sem that i am doing 
+8: DSA (Data Structures and Algorithms)
+9: DBMS (Database systems)
+10: MUPI (microprocessor and interfacing)
+11: FDS (Foundations of data science)
+12: POE (Principles of economics)
+13: ByeBye world

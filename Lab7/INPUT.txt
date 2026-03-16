@@ -1,0 +1,3 @@
+hello world 
+this is ams lab of the microprocessor (mup) course 
+Lab 7 of this course Eval lab 

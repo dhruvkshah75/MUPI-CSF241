@@ -1,0 +1,13 @@
+hello world 
+this is ams lab of the microprocessor (mup) course 
+Lab 7 of this course Eval lab 
+I am Dhruv Shah 
+This is a boring course 
+THis lab is the worst so boring 
+Courses this sem that i am doing 
+DSA (Data Structures and Algorithms)
+DBMS (Database systems)
+MUPI (microprocessor and interfacing)
+FDS (Foundations of data science)
+POE (Principles of economics)
+ByeBye world
