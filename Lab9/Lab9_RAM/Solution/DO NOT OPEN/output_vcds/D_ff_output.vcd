@@ -1,0 +1,110 @@
+$date
+	Fri Mar 29 01:50:41 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module D_ff_tb $end
+$var wire 1 ! q $end
+$var reg 1 " chipSelect $end
+$var reg 1 # clk $end
+$var reg 1 $ d $end
+$var reg 1 % enable $end
+$var reg 1 & regWrite $end
+$var reg 1 ' reset $end
+$scope module d0 $end
+$var wire 1 " chipSelect $end
+$var wire 1 # clk $end
+$var wire 1 $ d $end
+$var wire 1 % enable $end
+$var wire 1 & regWrite $end
+$var wire 1 ' reset $end
+$var reg 1 ! q $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0'
+0&
+0%
+0$
+0#
+0"
+x!
+$end
+#10
+1#
+#20
+0#
+1&
+1%
+1"
+#30
+0!
+1#
+#40
+0#
+1$
+#50
+1!
+1#
+#60
+0#
+0$
+#70
+0!
+1#
+#80
+0#
+1$
+#90
+1!
+1#
+#100
+0#
+0$
+0"
+#110
+1#
+#120
+0#
+0%
+1"
+#130
+1#
+#140
+0#
+0&
+1%
+#150
+1#
+#160
+0#
+1&
+#170
+0!
+1#
+#180
+0#
+1$
+#190
+1!
+1#
+#200
+0#
+1'
+0"
+#210
+1#
+#220
+0#
+1"
+#230
+0!
+1#
+#240
+0#

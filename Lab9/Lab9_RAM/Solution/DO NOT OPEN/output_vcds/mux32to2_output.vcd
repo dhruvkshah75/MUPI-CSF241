@@ -1,0 +1,188 @@
+$date
+	Fri Mar 29 01:55:09 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module mux32to2_tb $end
+$var wire 16 ! muxOut [15:0] $end
+$var reg 8 " in0 [7:0] $end
+$var reg 8 # in1 [7:0] $end
+$var reg 8 $ in10 [7:0] $end
+$var reg 8 % in11 [7:0] $end
+$var reg 8 & in12 [7:0] $end
+$var reg 8 ' in13 [7:0] $end
+$var reg 8 ( in14 [7:0] $end
+$var reg 8 ) in15 [7:0] $end
+$var reg 8 * in16 [7:0] $end
+$var reg 8 + in17 [7:0] $end
+$var reg 8 , in18 [7:0] $end
+$var reg 8 - in19 [7:0] $end
+$var reg 8 . in2 [7:0] $end
+$var reg 8 / in20 [7:0] $end
+$var reg 8 0 in21 [7:0] $end
+$var reg 8 1 in22 [7:0] $end
+$var reg 8 2 in23 [7:0] $end
+$var reg 8 3 in24 [7:0] $end
+$var reg 8 4 in25 [7:0] $end
+$var reg 8 5 in26 [7:0] $end
+$var reg 8 6 in27 [7:0] $end
+$var reg 8 7 in28 [7:0] $end
+$var reg 8 8 in29 [7:0] $end
+$var reg 8 9 in3 [7:0] $end
+$var reg 8 : in30 [7:0] $end
+$var reg 8 ; in31 [7:0] $end
+$var reg 8 < in4 [7:0] $end
+$var reg 8 = in5 [7:0] $end
+$var reg 8 > in6 [7:0] $end
+$var reg 8 ? in7 [7:0] $end
+$var reg 8 @ in8 [7:0] $end
+$var reg 8 A in9 [7:0] $end
+$var reg 4 B select [3:0] $end
+$scope module d0 $end
+$var wire 8 C in0 [7:0] $end
+$var wire 8 D in1 [7:0] $end
+$var wire 8 E in10 [7:0] $end
+$var wire 8 F in11 [7:0] $end
+$var wire 8 G in12 [7:0] $end
+$var wire 8 H in13 [7:0] $end
+$var wire 8 I in14 [7:0] $end
+$var wire 8 J in15 [7:0] $end
+$var wire 8 K in16 [7:0] $end
+$var wire 8 L in17 [7:0] $end
+$var wire 8 M in18 [7:0] $end
+$var wire 8 N in19 [7:0] $end
+$var wire 8 O in2 [7:0] $end
+$var wire 8 P in20 [7:0] $end
+$var wire 8 Q in21 [7:0] $end
+$var wire 8 R in22 [7:0] $end
+$var wire 8 S in23 [7:0] $end
+$var wire 8 T in24 [7:0] $end
+$var wire 8 U in25 [7:0] $end
+$var wire 8 V in26 [7:0] $end
+$var wire 8 W in27 [7:0] $end
+$var wire 8 X in28 [7:0] $end
+$var wire 8 Y in29 [7:0] $end
+$var wire 8 Z in3 [7:0] $end
+$var wire 8 [ in30 [7:0] $end
+$var wire 8 \ in31 [7:0] $end
+$var wire 8 ] in4 [7:0] $end
+$var wire 8 ^ in5 [7:0] $end
+$var wire 8 _ in6 [7:0] $end
+$var wire 8 ` in7 [7:0] $end
+$var wire 8 a in8 [7:0] $end
+$var wire 8 b in9 [7:0] $end
+$var wire 4 c select [3:0] $end
+$var reg 16 d muxOut [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1010000100011 d
+b0 c
+b1001 b
+b1000 a
+b111 `
+b110 _
+b101 ^
+b100 ]
+b11111 \
+b11110 [
+b11 Z
+b11101 Y
+b11100 X
+b11011 W
+b11010 V
+b11001 U
+b11000 T
+b10111 S
+b10110 R
+b10101 Q
+b10100 P
+b10 O
+b10011 N
+b10010 M
+b10001 L
+b10000 K
+b1111 J
+b1110 I
+b1101 H
+b1100 G
+b1011 F
+b1010 E
+b100011 D
+b10100 C
+b0 B
+b1001 A
+b1000 @
+b111 ?
+b110 >
+b101 =
+b100 <
+b11111 ;
+b11110 :
+b11 9
+b11101 8
+b11100 7
+b11011 6
+b11010 5
+b11001 4
+b11000 3
+b10111 2
+b10110 1
+b10101 0
+b10100 /
+b10 .
+b10011 -
+b10010 ,
+b10001 +
+b10000 *
+b1111 )
+b1110 (
+b1101 '
+b1100 &
+b1011 %
+b1010 $
+b100011 #
+b10100 "
+b1010000100011 !
+$end
+#20
+b1111000011111 !
+b1111000011111 d
+b1111 B
+b1111 c
+#40
+b10110101100100 !
+b10110101100100 d
+b1100100 ;
+b1100100 \
+b101101 :
+b101101 [
+#60
+b1010000010101 !
+b1010000010101 d
+b1010 B
+b1010 c
+#80
+b10110100000000 !
+b10110100000000 d
+b0 0
+b0 Q
+b101101 /
+b101101 P
+#100
+b101000001011 !
+b101000001011 d
+b101 B
+b101 c
+#120
+b100001011 !
+b100001011 d
+b1 $
+b1 E
+#140

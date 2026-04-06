@@ -1,0 +1,46 @@
+$date
+	Fri Mar 29 01:53:00 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module decoder4to16_tb $end
+$var wire 16 ! decOut [15:0] $end
+$var reg 4 " destReg [3:0] $end
+$scope module d0 $end
+$var wire 4 # destReg [3:0] $end
+$var reg 16 $ decOut [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1 $
+b0 #
+b0 "
+b1 !
+$end
+#20
+b10 !
+b10 $
+b1 "
+b1 #
+#40
+b100000 !
+b100000 $
+b101 "
+b101 #
+#60
+b1000000000000000 !
+b1000000000000000 $
+b1111 "
+b1111 #
+#80
+b1000000000000 !
+b1000000000000 $
+b1100 "
+b1100 #
+#100

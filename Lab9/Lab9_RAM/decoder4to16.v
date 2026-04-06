@@ -1,6 +1,10 @@
-module decoder4to16(input [3:0] destReg, output reg [15:0] decOut);     // DONE
-    always @ (destReg)
-    begin
+module decoder4to16(
+    input [3:0] destReg,
+    output reg [15:0] decOut
+);
+
+    // decoding 4 to 16 decoder 
+    always @(*) begin 
         case(destReg)
             4'd0:  decOut = 16'b0000_0000_0000_0001;
             4'd1:  decOut = 16'b0000_0000_0000_0010;
@@ -20,4 +24,5 @@ module decoder4to16(input [3:0] destReg, output reg [15:0] decOut);     // DONE
             4'd15: decOut = 16'b1000_0000_0000_0000;
         endcase
     end
+
 endmodule
