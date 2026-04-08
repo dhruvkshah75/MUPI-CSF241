@@ -1,0 +1,118 @@
+$date
+	Wed Apr  8 16:53:49 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module mux2to1_16bits_tb $end
+$var wire 16 ! muxOut [15:0] $end
+$var reg 16 " in0 [15:0] $end
+$var reg 16 # in1 [15:0] $end
+$var reg 1 $ select $end
+$var integer 32 % fail_count [31:0] $end
+$var integer 32 & pass_count [31:0] $end
+$scope module dut $end
+$var wire 16 ' in0 [15:0] $end
+$var wire 16 ( in1 [15:0] $end
+$var wire 1 $ select $end
+$var reg 16 ) muxOut [15:0] $end
+$upscope $end
+$scope task check_mux $end
+$var reg 16 * a [15:0] $end
+$var reg 16 + b [15:0] $end
+$var reg 16 , expected [15:0] $end
+$var reg 1 - sel $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0-
+b10100 ,
+b100011 +
+b10100 *
+b10100 )
+b100011 (
+b10100 '
+b0 &
+b0 %
+0$
+b100011 #
+b10100 "
+b10100 !
+$end
+#5000
+b100011 !
+b100011 )
+1$
+b100011 ,
+1-
+b1 &
+#10000
+b101101 !
+b101101 )
+0$
+b1100100 #
+b1100100 (
+b101101 "
+b101101 '
+b101101 ,
+0-
+b1100100 +
+b101101 *
+b10 &
+#15000
+b1100100 !
+b1100100 )
+1$
+b1100100 ,
+1-
+b11 &
+#20000
+b1111111111111111 !
+b1111111111111111 )
+0$
+b0 #
+b0 (
+b1111111111111111 "
+b1111111111111111 '
+b1111111111111111 ,
+0-
+b0 +
+b1111111111111111 *
+b100 &
+#25000
+b0 !
+b0 )
+1$
+b0 ,
+1-
+b101 &
+#30000
+b1010101111001101 !
+b1010101111001101 )
+0$
+b1001000110100 #
+b1001000110100 (
+b1010101111001101 "
+b1010101111001101 '
+b1010101111001101 ,
+0-
+b1001000110100 +
+b1010101111001101 *
+b110 &
+#35000
+b1001000110100 !
+b1001000110100 )
+1$
+b1001000110100 ,
+1-
+b111 &
+#40000
+b1000 &

@@ -1,0 +1,295 @@
+$date
+	Wed Apr  8 16:53:49 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module mux32to2_tb $end
+$var wire 16 ! muxOut [15:0] $end
+$var reg 8 " in0 [7:0] $end
+$var reg 8 # in1 [7:0] $end
+$var reg 8 $ in10 [7:0] $end
+$var reg 8 % in11 [7:0] $end
+$var reg 8 & in12 [7:0] $end
+$var reg 8 ' in13 [7:0] $end
+$var reg 8 ( in14 [7:0] $end
+$var reg 8 ) in15 [7:0] $end
+$var reg 8 * in16 [7:0] $end
+$var reg 8 + in17 [7:0] $end
+$var reg 8 , in18 [7:0] $end
+$var reg 8 - in19 [7:0] $end
+$var reg 8 . in2 [7:0] $end
+$var reg 8 / in20 [7:0] $end
+$var reg 8 0 in21 [7:0] $end
+$var reg 8 1 in22 [7:0] $end
+$var reg 8 2 in23 [7:0] $end
+$var reg 8 3 in24 [7:0] $end
+$var reg 8 4 in25 [7:0] $end
+$var reg 8 5 in26 [7:0] $end
+$var reg 8 6 in27 [7:0] $end
+$var reg 8 7 in28 [7:0] $end
+$var reg 8 8 in29 [7:0] $end
+$var reg 8 9 in3 [7:0] $end
+$var reg 8 : in30 [7:0] $end
+$var reg 8 ; in31 [7:0] $end
+$var reg 8 < in4 [7:0] $end
+$var reg 8 = in5 [7:0] $end
+$var reg 8 > in6 [7:0] $end
+$var reg 8 ? in7 [7:0] $end
+$var reg 8 @ in8 [7:0] $end
+$var reg 8 A in9 [7:0] $end
+$var reg 4 B select [3:0] $end
+$var integer 32 C fail_count [31:0] $end
+$var integer 32 D pass_count [31:0] $end
+$scope module dut $end
+$var wire 8 E in0 [7:0] $end
+$var wire 8 F in1 [7:0] $end
+$var wire 8 G in10 [7:0] $end
+$var wire 8 H in11 [7:0] $end
+$var wire 8 I in12 [7:0] $end
+$var wire 8 J in13 [7:0] $end
+$var wire 8 K in14 [7:0] $end
+$var wire 8 L in15 [7:0] $end
+$var wire 8 M in16 [7:0] $end
+$var wire 8 N in17 [7:0] $end
+$var wire 8 O in18 [7:0] $end
+$var wire 8 P in19 [7:0] $end
+$var wire 8 Q in2 [7:0] $end
+$var wire 8 R in20 [7:0] $end
+$var wire 8 S in21 [7:0] $end
+$var wire 8 T in22 [7:0] $end
+$var wire 8 U in23 [7:0] $end
+$var wire 8 V in24 [7:0] $end
+$var wire 8 W in25 [7:0] $end
+$var wire 8 X in26 [7:0] $end
+$var wire 8 Y in27 [7:0] $end
+$var wire 8 Z in28 [7:0] $end
+$var wire 8 [ in29 [7:0] $end
+$var wire 8 \ in3 [7:0] $end
+$var wire 8 ] in30 [7:0] $end
+$var wire 8 ^ in31 [7:0] $end
+$var wire 8 _ in4 [7:0] $end
+$var wire 8 ` in5 [7:0] $end
+$var wire 8 a in6 [7:0] $end
+$var wire 8 b in7 [7:0] $end
+$var wire 8 c in8 [7:0] $end
+$var wire 8 d in9 [7:0] $end
+$var wire 4 e select [3:0] $end
+$var reg 16 f muxOut [15:0] $end
+$upscope $end
+$scope task check_select $end
+$var reg 16 g expected [15:0] $end
+$var reg 4 h sel [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx h
+bx g
+b0 f
+bx e
+b10101001 d
+b10101000 c
+b10100111 b
+b10100110 a
+b10100101 `
+b10100100 _
+b10111111 ^
+b10111110 ]
+b10100011 \
+b10111101 [
+b10111100 Z
+b10111011 Y
+b10111010 X
+b10111001 W
+b10111000 V
+b10110111 U
+b10110110 T
+b10110101 S
+b10110100 R
+b10100010 Q
+b10110011 P
+b10110010 O
+b10110001 N
+b10110000 M
+b10101111 L
+b10101110 K
+b10101101 J
+b10101100 I
+b10101011 H
+b10101010 G
+b10100001 F
+b10100000 E
+b0 D
+b0 C
+bx B
+b10101001 A
+b10101000 @
+b10100111 ?
+b10100110 >
+b10100101 =
+b10100100 <
+b10111111 ;
+b10111110 :
+b10100011 9
+b10111101 8
+b10111100 7
+b10111011 6
+b10111010 5
+b10111001 4
+b10111000 3
+b10110111 2
+b10110110 1
+b10110101 0
+b10110100 /
+b10100010 .
+b10110011 -
+b10110010 ,
+b10110001 +
+b10110000 *
+b10101111 )
+b10101110 (
+b10101101 '
+b10101100 &
+b10101011 %
+b10101010 $
+b10100001 #
+b10100000 "
+b0 !
+$end
+#5000
+b1010000010100001 !
+b1010000010100001 f
+b0 B
+b0 e
+b1010000010100001 g
+b0 h
+#10000
+b1010001010100011 !
+b1010001010100011 f
+b1 B
+b1 e
+b1010001010100011 g
+b1 h
+b1 D
+#15000
+b1010010010100101 !
+b1010010010100101 f
+b10 B
+b10 e
+b1010010010100101 g
+b10 h
+b10 D
+#20000
+b1010011010100111 !
+b1010011010100111 f
+b11 B
+b11 e
+b1010011010100111 g
+b11 h
+b11 D
+#25000
+b1010100010101001 !
+b1010100010101001 f
+b100 B
+b100 e
+b1010100010101001 g
+b100 h
+b100 D
+#30000
+b1010101010101011 !
+b1010101010101011 f
+b101 B
+b101 e
+b1010101010101011 g
+b101 h
+b101 D
+#35000
+b1010110010101101 !
+b1010110010101101 f
+b110 B
+b110 e
+b1010110010101101 g
+b110 h
+b110 D
+#40000
+b1010111010101111 !
+b1010111010101111 f
+b111 B
+b111 e
+b1010111010101111 g
+b111 h
+b111 D
+#45000
+b1011000010110001 !
+b1011000010110001 f
+b1000 B
+b1000 e
+b1011000010110001 g
+b1000 h
+b1000 D
+#50000
+b1011001010110011 !
+b1011001010110011 f
+b1001 B
+b1001 e
+b1011001010110011 g
+b1001 h
+b1001 D
+#55000
+b1011010010110101 !
+b1011010010110101 f
+b1010 B
+b1010 e
+b1011010010110101 g
+b1010 h
+b1010 D
+#60000
+b1011011010110111 !
+b1011011010110111 f
+b1011 B
+b1011 e
+b1011011010110111 g
+b1011 h
+b1011 D
+#65000
+b1011100010111001 !
+b1011100010111001 f
+b1100 B
+b1100 e
+b1011100010111001 g
+b1100 h
+b1100 D
+#70000
+b1011101010111011 !
+b1011101010111011 f
+b1101 B
+b1101 e
+b1011101010111011 g
+b1101 h
+b1101 D
+#75000
+b1011110010111101 !
+b1011110010111101 f
+b1110 B
+b1110 e
+b1011110010111101 g
+b1110 h
+b1110 D
+#80000
+b1011111010111111 !
+b1011111010111111 f
+b1111 B
+b1111 e
+b1011111010111111 g
+b1111 h
+b1111 D
+#85000
+b10000 D

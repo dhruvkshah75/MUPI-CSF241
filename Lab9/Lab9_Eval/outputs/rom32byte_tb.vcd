@@ -1,0 +1,185 @@
+$date
+	Wed Apr  8 16:53:49 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module rom32byte_tb $end
+$var wire 16 ! dataOut [15:0] $end
+$var reg 4 " address [3:0] $end
+$var reg 1 # chipSelect $end
+$var reg 1 $ outputEnable $end
+$var integer 32 % fail_count [31:0] $end
+$var integer 32 & pass_count [31:0] $end
+$scope module dut $end
+$var wire 4 ' address [3:0] $end
+$var wire 1 # chipSelect $end
+$var wire 1 $ outputEnable $end
+$var reg 16 ( dataOut [15:0] $end
+$scope begin genblk1[0] $end
+$var parameter 2 ) i $end
+$upscope $end
+$scope begin genblk1[1] $end
+$var parameter 2 * i $end
+$upscope $end
+$scope begin genblk1[2] $end
+$var parameter 3 + i $end
+$upscope $end
+$scope begin genblk1[3] $end
+$var parameter 3 , i $end
+$upscope $end
+$scope begin genblk1[4] $end
+$var parameter 4 - i $end
+$upscope $end
+$scope begin genblk1[5] $end
+$var parameter 4 . i $end
+$upscope $end
+$scope begin genblk1[6] $end
+$var parameter 4 / i $end
+$upscope $end
+$scope begin genblk1[7] $end
+$var parameter 4 0 i $end
+$upscope $end
+$scope begin genblk1[8] $end
+$var parameter 5 1 i $end
+$upscope $end
+$scope begin genblk1[9] $end
+$var parameter 5 2 i $end
+$upscope $end
+$scope begin genblk1[10] $end
+$var parameter 5 3 i $end
+$upscope $end
+$scope begin genblk1[11] $end
+$var parameter 5 4 i $end
+$upscope $end
+$scope begin genblk1[12] $end
+$var parameter 5 5 i $end
+$upscope $end
+$scope begin genblk1[13] $end
+$var parameter 5 6 i $end
+$upscope $end
+$scope begin genblk1[14] $end
+$var parameter 5 7 i $end
+$upscope $end
+$scope begin genblk1[15] $end
+$var parameter 5 8 i $end
+$upscope $end
+$upscope $end
+$scope task check_read $end
+$var reg 4 9 addr [3:0] $end
+$var reg 16 : expected [15:0] $end
+$var reg 8 ; test_id [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1111 8
+b1110 7
+b1101 6
+b1100 5
+b1011 4
+b1010 3
+b1001 2
+b1000 1
+b111 0
+b110 /
+b101 .
+b100 -
+b11 ,
+b10 +
+b1 *
+b0 )
+$end
+#0
+$dumpvars
+bx ;
+bx :
+bx 9
+bx (
+bx '
+b0 &
+b0 %
+1$
+1#
+bx "
+bx !
+$end
+#2000
+b1010101000000001 !
+b1010101000000001 (
+b0 "
+b0 '
+b1 ;
+b1010101000000001 :
+b0 9
+#7000
+b1010101000000010 !
+b1010101000000010 (
+b1 "
+b1 '
+b10 ;
+b1010101000000010 :
+b1 9
+b1 &
+#12000
+b1010101000000011 !
+b1010101000000011 (
+b10 "
+b10 '
+b11 ;
+b1010101000000011 :
+b10 9
+b10 &
+#17000
+b1010101000000110 !
+b1010101000000110 (
+b101 "
+b101 '
+b100 ;
+b1010101000000110 :
+b101 9
+b11 &
+#22000
+b1010101000001010 !
+b1010101000001010 (
+b1001 "
+b1001 '
+b101 ;
+b1010101000001010 :
+b1001 9
+b100 &
+#27000
+b1010101000001111 !
+b1010101000001111 (
+b1110 "
+b1110 '
+b110 ;
+b1010101000001111 :
+b1110 9
+b101 &
+#32000
+b1010101000010000 !
+b1010101000010000 (
+b1111 "
+b1111 '
+b111 ;
+b1010101000010000 :
+b1111 9
+b110 &
+#37000
+b0 !
+b0 (
+b11 "
+b11 '
+0$
+b111 &
+#42000
+0#
+1$
+b1000 &
+#47000
+b1001 &

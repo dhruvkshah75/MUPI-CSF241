@@ -1,0 +1,178 @@
+$date
+	Wed Apr  8 16:53:49 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module D_ff_tb $end
+$var wire 1 ! q $end
+$var reg 1 " chipSelect $end
+$var reg 1 # clk $end
+$var reg 1 $ d $end
+$var reg 1 % enable $end
+$var reg 1 & regWrite $end
+$var reg 1 ' reset $end
+$var integer 32 ( fail_count [31:0] $end
+$var integer 32 ) pass_count [31:0] $end
+$scope module dut $end
+$var wire 1 " chipSelect $end
+$var wire 1 # clk $end
+$var wire 1 $ d $end
+$var wire 1 % enable $end
+$var wire 1 & regWrite $end
+$var wire 1 ' reset $end
+$var reg 1 ! q $end
+$upscope $end
+$scope task apply_check $end
+$var reg 1 * cs_in $end
+$var reg 1 + d_in $end
+$var reg 1 , en_in $end
+$var reg 1 - expected $end
+$var reg 1 . rst_in $end
+$var reg 1 / rw_in $end
+$var reg 64 0 test_id [63:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx 0
+x/
+x.
+x-
+x,
+x+
+x*
+b0 )
+b0 (
+0'
+0&
+0%
+0$
+0#
+0"
+x!
+$end
+#10000
+1#
+#20000
+b1 0
+0-
+0.
+1,
+1/
+1*
+0+
+0#
+#30000
+1#
+#40000
+1%
+1&
+1"
+0#
+#50000
+0!
+1#
+#51000
+b10 0
+1-
+1+
+b1 )
+#60000
+1$
+0#
+#70000
+1!
+1#
+#71000
+b11 0
+0*
+0+
+b10 )
+#80000
+0"
+0$
+0#
+#90000
+1#
+#91000
+b100 0
+0/
+1*
+b11 )
+#100000
+0&
+1"
+0#
+#110000
+1#
+#111000
+b101 0
+0,
+1/
+b100 )
+#120000
+0%
+1&
+0#
+#130000
+1#
+#131000
+b110 0
+0-
+1.
+1,
+1+
+b101 )
+#140000
+1'
+1%
+1$
+0#
+#150000
+0!
+1#
+#151000
+b111 0
+1-
+0.
+b110 )
+#160000
+0'
+0#
+#170000
+1!
+1#
+#171000
+b1000 0
+0-
+0+
+b111 )
+#180000
+0$
+0#
+#190000
+0!
+1#
+#191000
+b1001 0
+1.
+0*
+1+
+b1000 )
+#200000
+1'
+0"
+1$
+0#
+#210000
+1#
+#211000
+b1001 )
