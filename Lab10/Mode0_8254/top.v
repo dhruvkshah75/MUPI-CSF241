@@ -37,3 +37,4 @@ module intel_8254_simplified (
     counter c2(clk, gate2, ctr2_wr, int_data_out, ctr2_control, out2);
 
 endmodule
+

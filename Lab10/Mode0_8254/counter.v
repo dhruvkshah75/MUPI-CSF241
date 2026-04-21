@@ -29,3 +29,4 @@ module counter(
     end
 
 endmodule
+
